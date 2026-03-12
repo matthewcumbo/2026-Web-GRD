@@ -7,3 +7,17 @@ a{
 #homeLink{
     font-weight: bold;
 }
+
+.paraBg{
+    background-color: #ffbfcc;
+    margin:10px;
+}
+
+.paraBorder{
+    border:1px solid black;
+}
+
+.borderOverride{
+    border-color: #0eff0e;
+}
+

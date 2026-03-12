@@ -1,0 +1,32 @@
+
+
+.box{
+    border: 1px solid #000;
+}
+
+.bigBox{
+    background-color: #faebd7;
+    padding:25px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+
+.smallBox{
+    background-color: #dc143c;
+    color: #faebd7;
+    margin-top:10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.sidebar{
+    flex-grow: 1;
+}
+
+.mainContent{
+    flex-grow:3;
+}
