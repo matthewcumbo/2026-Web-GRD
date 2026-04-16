@@ -1,3 +1,15 @@
 .h400{
-    height: 400px;
+    height: 600px;
+}
+
+#carouselExample2 .carousel-item{
+    position: relative;
+    height: 800px;
+}
+
+#carouselExample2 .carousel-item img {
+    position:absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translateY(-50%) translateX(-50%); 
 }
