@@ -4,6 +4,7 @@
     border: 1px solid #000;
 }
 
+/* Main flexbox class */
 .bigBox{
     background-color: #faebd7;
     padding:25px;

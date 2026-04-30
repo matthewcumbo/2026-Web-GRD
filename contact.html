@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <form 
+        action="mailto:hello@website.com"
+        method="post"
+        enctype="text/plain">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div id="divFirstName">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="name">
+            </div>
+            <div id="divLastName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="surname">
+            </div>
+            <div id="divAge">
+                <p>Age Group</p>
+                
+                <input type="radio" id="age1" name="age" value="1">
+                <label for="age1">15 - 18</label>
+                
+                <br>
+                
+                <input type="radio" id="age2" name="age" value="2">
+                <label for="age2">19 - 25</label>
+                
+                <br>
+                
+                <input type="radio" id="age3" name="age" value="3">
+                <label for="age3">26 - 35</label>
+                
+                <br> 
+                
+                <input type="radio" id="age4" name="age" value="4">
+                <label for="age4">36+</label>
+            </div>
+        </fieldset>
+
+
+        <div id="divButtons">
+            <button type="submit">Send</button>
+            <button type="reset">Cancel</button>
+        </div>
+    </form>
+    
+</body>
+</html>
