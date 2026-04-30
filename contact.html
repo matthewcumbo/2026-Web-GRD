@@ -15,11 +15,11 @@
             <legend>Personal Details</legend>
             <div id="divFirstName">
                 <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="name">
+                <input type="text" id="firstName" name="name" placeholder="Joe" required>
             </div>
             <div id="divLastName">
                 <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="surname">
+                <input type="text" id="lastName" name="surname" placeholder="Borg" required>
             </div>
             <div id="divAge">
                 <p>Age Group</p>
@@ -41,6 +41,42 @@
                 
                 <input type="radio" id="age4" name="age" value="4">
                 <label for="age4">36+</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="emailAddress" placeholder="joeborg@gmail.com" required>
+            </div>
+            <div>
+                <label for="phone">Phone number</label>
+                <input type="text" id="phone" name="phoneNumber" placeholder="9922 4466" required pattern="[0-9]{4} [0-9]{4}">
+            </div>
+            <div>
+                <input type="checkbox" name="offersCheckbox" id="offers">
+                <label for="offers">Contact me about new offers</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Details</legend>
+            <div>
+                <label for="department">Department:</label>
+                <select name="departmentChosen" id="department">
+                    <option value="" disabled selected>Please select department</option>
+                    <option value="1">Customer Support</option>
+                    <option value="2">Technical Support</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea 
+                    name="fullMessage" 
+                    id="message"
+                    placeholder="I have a problem with my account..."
+                    cols="30" rows="10" required></textarea>
             </div>
         </fieldset>
 
